@@ -1,8 +1,31 @@
-ul {
-    list-style-type: none;
-    padding-left: 0;
+main {
+    background: red;
+}
+hr {
 }
 
-dd {
-    margin-inline-start: 0;
+.separator{
+    border-bottom: solid;
+    border-color: red;
+    border-width: 2px;
+}
+
+.box-div{
+    border:1px solid red;
+
+
+}
+
+
+/* https://developer.mozilla.org/ru/docs/Web/CSS/margin - Margin */
+/* https://developer.mozilla.org/ru/docs/Web/CSS/padding - Padding */
+
+ul {
+    width:max-content;
+    margin:0 auto;
+    margin-bottom: 20px;
+    border:1px solid red;
+    padding: 24px;
+    border-radius: 6px;
+
 }
