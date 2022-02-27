@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap");
+
+html {
+  font-size: 32px;
+  font-family: Roboto, Sans;
+  font-weight: 100;
+}
+body {
+  margin: 0;
+}
+
+nav {
+  font-size: 12px;
+}
+nav > li {
+  color: red;
+  display: inline;
+}
+
+nav > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+/* BEM */
+.cards_section {
+  background: #f1f2f3;
+  padding: 1em 0;
+}
+.card {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 12px;
+  background: #fff;
+  margin-bottom: 3em;
+}
+
+.card__details_container {
+  padding: 3em;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__title {
+  font-size: 18px;
+}
+
+.card__description {
+  font-size: 14px;
+}
+
+.card__postfix {
+  font-weight: 800;
+  font-size: 12px;
+}
+
+.poster {
+  color: white;
+  background: #060c42;
+  font-weight: 300;
+}
+
+.poster__button {
+  color: #fff;
+  background: #0e6ec9;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 50px;
+  font-weight: 600;
+}
+
+.poster__notice {
+  display: block;
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+.test>li:first-child{
+    color:red;
+}
+
+.test>li:last-child{
+    color:green;
+}

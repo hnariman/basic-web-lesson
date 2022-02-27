@@ -1,53 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- https://developer.mozilla.org/ru/docs/Web/HTML/Element -->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style.css">
-
-    <title>Test Title</title>
+    <link rel="stylesheet" href="disney.css">
+    <title>Document</title>
 </head>
 
 <body>
-    <main >
-        <span class="first-span"> это строчный </span>
-        <span class="second-span"> это строчный </span>
-        <p class="first-paragraph"> это блочный </p>
-        <p class="second-paragraph"> это блочный </p>
-    </main>
+    <!-- header -->
+    <header class="header">
+        <img src="./assets/logo.png" alt="disney logo" width="100px">
+        <span>DISNEY+</span>
+        <span>MOVIES</span>
+    </header>
 
-    <ol>
-        <li>ordered list item 1</li>
-        <li>ordered list item 2</li>
-        <li>ordered list item 3</li>
-        <li>ordered list item 4</li>
-    </ol>
-    <ul>
-        <li>unordered list item 1</li>
-        <li>unordered list item 2</li>
-        <li>unordered list item 3</li>
-        <li>unordered list item 4</li>
+
+    <!-- main disney poster with button -->
+    <div class="poster">
+        <img class="poster__image" src="./assets/main-disney.webp" alt="disney logo" width="70%">
+        <p class="poster__title"> coming soon </p>
+        <button class="poster__button">KEEP ME UPDATED</button>
+        <a class="poster__notice" href="http://">18+, Subscription required</a>
+    </div>
+
+
+    <!-- 2x card with moovie add -->
+    <section class="cards_section">
+
+        <div class="card">
+            <img src="./assets/cat.webp" alt="" class="card__image">
+            <div class="card__details_container">
+
+                <p class="card__title">Turning Red</p>
+                <p class="card__description">In cinemas 11 March.</p>
+                <p class="card__postfix">DISNEY•PIXAR</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card__image" src="./assets/paris.webp" alt="">
+
+            <div class="card__details_container">
+                <p class="card__title">Disneyland Paris 30th Anniversary</p>
+                <p class="card__description">Let the magic shine like never before! Book now.</p>
+                <p class="card__postfix">DISNEYLAND® PARIS</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- carousel -->
+
+
+    <!-- footer -->
+    <p>Follow Disney on:</p>
+    facebook
+
+    Help
+    About and Legal
+    <nav>
+        <li><a href="http://">Help</a></li>
+        <li><a href="http://">Sitemap </a> </li>
+
+        <li><a href="http://">Terms of Use</a></li>
+        <li><a href="http://">Privacy Policy</a></li>
+        <li><a href="http://">Interest-based</a></li>
+        <li><a href="http://">Ads</a></li>
+        <li><a href="http://">About Us</a></li>
+        <li><a href="http://">PAIA Manual</a></li>
+        <li><a href="http://">The Walt Disney Company</a></li>
+    </nav>
+    <span>
+        <a href="http://">some link</a>
+    </span>
+
+
+
+    © Disney © Disney•Pixar © & ™ Lucasfilm LTD © Marvel. All Rights Reserved
+
+
+
+    <ul class="test">
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+        <li>list 4</li>
+        <li>list 5</li>
     </ul>
-    <div class="separator" ></div>
-    <div class="box-div"> </div>
-    <hr/>
-
-    <dl>
-        <dt>detail list item 1</dt>
-        <dt>detail list item 2</dt>
-        <dt>detail list item 3</dt>
-        <dt>detail list item 4</dt>
-    </dl>
-
-<img src="https://media.istockphoto.com/photos/fuunny-overweight-retro-swimmer-about-to-jump-into-the-ice-hole-picture-id1318979684?s=612x612" alt="man jumps in lake">
-<div></div>
-<div class="image_in_div">
-    <p></p>
-    <span> </span>
 </body>
 
 </html>
